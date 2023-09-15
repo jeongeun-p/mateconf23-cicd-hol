@@ -26,5 +26,5 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: mateconfholacr.azurecr.io/${{ secrets.ACR_USERNAME }}/kioskapp:${{ github.sha }}
+        tags: jeongeunrepo.azurecr.io/${{ secrets.ACR_USERNAME }}/kioskapp:${{ github.sha }}
         file: ./Dockerfile
